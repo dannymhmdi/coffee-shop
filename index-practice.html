@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style-practice.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"><img src="images/logo.png" alt=""></a>
+        <div class="cont">
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="#about-us">about</a></li>
+                    <li><a href="#our-menu">menu</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">review</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="" class="border-0">blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="input-container" id="input-container">
+            <input type="search" id="search">
+            <!-- <label for="search" >search</label> -->
+        </div>
+        <div class="icons" id="icons">
+            <!-- <span id="search-btn">search</span> -->
+            <i class="fa-solid fa-magnifying-glass fa-2x" id="search-btn"></i>
+            <i class="fa-solid fa-cart-shopping fa-2x p-relative" id="shop-btn"><span class="badge"
+                    id="badge">+4</span></i>
+            <a href="" class="sign-in">sign in</a>
+            <a href="Login.html" class="login" target="_self">Login</a>
+            <!-- <span>shop</span> -->
+            <span class="ham-menu"></span>
+        </div>
+
+        <div class="cart-container col-md-4 col-lg-3">
+            <div class="check-out-container"><a href="" class="check-out">checkout now</a></div>
+            <div class="content-container">
+                <div class="img-container">
+                    <div class="img-box"><img src="images/cart-item-1.png" class="cart-img" alt=""></div>
+                    <div class="price-box">
+                        <h3>cart item 01</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                </div>
+                <div class="xmark"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+
+            <div class="content-container">
+                <div class="img-container">
+                    <div class="img-box"><img src="images/cart-item-2.png" class="cart-img" alt=""></div>
+                    <div class="price-box">
+                        <h3>cart item 02</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                </div>
+                <div class="xmark"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+
+            <div class="content-container">
+                <div class="img-container">
+                    <div class="img-box"><img src="images/cart-item-3.png" class="cart-img" alt=""></div>
+                    <div class="price-box">
+                        <h3>cart item 03</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                </div>
+                <div class="xmark"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+
+            <div class="content-container">
+                <div class="img-container">
+                    <div class="img-box"><img src="images/cart-item-4.png" class="cart-img" alt=""></div>
+                    <div class="price-box">
+                        <h3>cart item 04</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                </div>
+                <div class="xmark"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <!-- <div class="check-out-container"><a href="" class="check-out">checkout now</a></div> -->
+        </div>
+    </header>
+    <section class="home">
+        <h3>fresh coffee in the morning</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora
+            reiciendis.</p>
+        <a href="">get yours now</a>
+    </section>
+    <section class="heading">
+        <h1>
+            <span>About</span>
+            us
+        </h1>
+    </section>
+    <section class="about-us row">
+        <div class="col-md-6 col-12 col-lg-5"><img src="images/about-img.jpeg" class="fluid-image" alt="coffee"></div>
+        <div class="about-us-text col-12 col-md-6 col-lg-5">
+            <h3>what makes our coffee special?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum
+                fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas
+                culpa! Neque consectetur obcaecati sapiente?
+            </p>
+            <a href="">learn more</a>
+        </div>
+    </section>
+    <section class="heading">
+        <h1>
+            <span>our</span>
+            menu
+        </h1>
+    </section>
+
+    <div class="menu-item-container">
+        <section class="menu-item col-12">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-1.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-2.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-3.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-4.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-5.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-4 col-xxl-3">
+                <div class="box">
+                    <img src="images/menu-6.png" class="buy-coffee" alt="cappuccino">
+                    <h3>tasty and healty</h3>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="heading">
+        <h1>
+            our
+            <span>products</span>
+        </h1>
+    </div>
+    <div class="product-item">
+        <div class="col-12 product-center">
+            <div class="col-12 col-sm-6 col-md-4 padding-4 product-container">
+                <div class="product-box">
+                    <div class="product-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <img src="images/product-1.png" alt="">
+                    <h3>fresh coffee</h3>
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 padding-4 product-container">
+                <div class="product-box">
+                    <div class="product-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <img src="images/product-1.png" alt="">
+                    <h3>fresh coffee</h3>
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 padding-4 product-container">
+                <div class="product-box">
+                    <div class="product-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <img src="images/product-1.png" alt="">
+                    <h3>fresh coffee</h3>
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="price">
+                        $15.99
+                        <span>$20.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="heading">
+        <h1>
+            customer's
+            <span>review</span>
+        </h1>
+    </div>
+    <div class="review">
+        <div class="div90">
+            <div class="customer-container col-12 col-sm-6 col-md-4">
+                <div class="costumer-box">
+                    <img src="images/quote-img.png" class="customer-img" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                        nobis?
+                        Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel?
+                        Nemo.
+                    </p>
+                    <img src="images/pic-1.png" class="customer" alt="john deo">
+                    <h3>john deo</h3>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-container col-12 col-sm-6 col-md-4">
+                <div class="costumer-box">
+                    <img src="images/quote-img.png" class="customer-img" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                        nobis?
+                        Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel?
+                        Nemo.
+                    </p>
+                    <img src="images/pic-2.png" class="customer" alt="john deo">
+                    <h3>jackie hawkins</h3>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-container col-12 col-sm-6 col-md-4">
+                <div class="costumer-box">
+                    <img src="images/quote-img.png" class="customer-img" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                        nobis?
+                        Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel?
+                        Nemo.
+                    </p>
+                    <img src="images/pic-3.png" class="customer" alt="john deo">
+                    <h3>adrian smith</h3>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="heading">
+        <h1>
+            contact
+            <span>us</span>
+        </h1>
+    </div>
+
+
+    <div class="gmap-form ">
+        <div>
+
+            <div class="row px-40 px-5">
+                <iframe id="gmap_canvas" class="col-12 col-md-6"
+                    src="https://maps.google.com/maps?q=35.749986,%2051.537589&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <form action="" method="post" class="my-form col-12 col-md-6">
+                    <h3>GET IN TOUCH</h3>
+                    <div>
+                        <label for="text" class="fa-solid fa-user"></label>
+                        <input type="text" id="text" placeholder="name">
+                    </div>
+                    <div>
+                        <label class="fa-solid fa-envelope" for="email"></label>
+                        <input type="email" id="email" placeholder="email">
+                    </div>
+                    <div>
+                        <label for="number" class="fa-solid fa-user"></label>
+                        <input type="number" id="number" placeholder="number">
+                    </div>
+                    <button type="submit" class="form-btn">contact now</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="heading">
+        <h1>
+            our
+            <span>blogs</span>
+        </h1>
+    </div>
+    <section class="blogs">
+        <div class="row px-40 w90">
+            <div class="col-12 col-sm-6 col-md-4 container-blog">
+                <div class="blogs-box">
+                    <div class="overflow-hidden"> <img src="images/blog-1.jpeg" class="fluid-image" alt="coffee"></div>
+                    <div class="cart-body">
+                        <a href="" class="title-blogs">tasty and refreshing coffee</a>
+                        <span>by admin / 21st may, 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                        <a href="">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 container-blog">
+                <div class="blogs-box">
+                    <div class="overflow-hidden"> <img src="images/blog-2.jpeg" class="fluid-image" alt="coffee"></div>
+                    <div class="cart-body">
+                        <a href="" class="title-blogs">tasty and refreshing coffee</a>
+                        <span>by admin / 21st may, 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                        <a href="">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 container-blog">
+                <div class="blogs-box">
+                    <div class="overflow-hidden"> <img src="images/blog-3.jpeg" class="fluid-image" alt="coffee"></div>
+                    <div class="cart-body">
+                        <a href="" class="title-blogs">tasty and refreshing coffee</a>
+                        <span>by admin / 21st may, 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                        <a href="">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="media-icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="footer-menu">
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">menu</a>
+            <a href="">products</a>
+            <a href="">review</a>
+            <a href="">contact</a>
+            <a href="">blogs</a>
+        </div>
+        <div class="credit">
+            created by
+            <span>Daniel Mohammadi</span>
+            | all rights reserved
+        </div>
+    </footer>
+    <script>
+        let hamMenuSelect = document.querySelector('span.ham-menu ,span.ham-menu > *')
+        hamMenuSelect.onclick = function () {
+            let element = document.querySelector('.cont');
+            element.classList.toggle('trans-menu');
+            document.querySelector('.cart-container').classList.remove('cart-container-show');
+            document.getElementById('input-container').classList.remove('height-show');
+        }
+
+        let searchSelect = document.getElementById('search-btn');
+        searchSelect.onclick = function () {
+            document.getElementById('input-container').classList.toggle('height-show');
+            document.querySelector('.cart-container').classList.remove('cart-container-show');
+            document.querySelector('.cont').classList.remove('trans-menu');
+
+        }
+
+        let shopSelect = document.getElementById('shop-btn');
+        shopSelect.onclick = function () {
+            document.querySelector('.cart-container').classList.toggle('cart-container-show');
+            document.getElementById('input-container').classList.remove('height-show');
+            document.querySelector('.cont').classList.remove('trans-menu');
+        }
+
+        // const crossIcons = document.querySelectorAll('.fa-xmark');
+        // const crossIcons = document.querySelectorAll('.fa-xmark');
+        // for (let crossIcon of crossIcons) {
+        //     crossIcon.onclick = function (event) {
+        //         event.preventDefault()
+        //         // this.closest('div.content-container').style.display = 'none';
+        //         this.closest('div.content-container').remove();
+        //         // crossIcon.setAttribute('onclick','myfunction(e)')
+        //     }
+        // }
+        //     for(let crossIcon of crossIcons){
+        //     crossIcon.addEventListener("click",myfnc,true);
+        //       function myfnc(event){
+        //         this.closest('div.content-container').remove();
+        //         // this.setAttribute('onclick','myFunction(event)')
+        //         // let buttonClicked = event.target;
+        //         // buttonClicked.parentElement.parentElement.remove();
+        //        }
+        // }
+
+        let cartContainerSelctor = document.querySelector('.cart-container');
+        cartContainerSelctor.addEventListener('click', function (e) {
+            const tgt = e.target;
+            if (tgt.matches('.fa-xmark')) {
+                tgt.closest('div.content-container').remove();
+                badgeCounter()
+            }
+        })
+
+
+        let heartSelects = document.querySelectorAll('.fa-heart');
+        for (let heartSelect of heartSelects) {
+            heartSelect.onclick = function () {
+                this.classList.toggle('heart-active');
+            }
+        }
+        // let eyeSelects = document.querySelectorAll('.fa-eye');
+        // for(let eyeSelect of eyeSelects){
+        //     eyeSelect.onclick = function(){
+        //        this.setAttribute('class','fa-solid fa-eye-slash')
+        //     }
+        // }
+
+
+        // for(let addToCart of addTocarts){
+        //     let boxSelect = addToCart.closest('div.box');
+        //         boxImg = boxSelect.children[0];
+        //         console.log('ff =',boxImg)
+        // }
+        let addTocarts = document.querySelectorAll('.box button');
+        for (let addToCart of addTocarts) {
+            addToCart.addEventListener("click", myfunc);
+            function myfunc(event) {
+                event.preventDefault()
+                let boxImg
+                console.log("**** : ", addToCart)
+                let boxSelect = addToCart.closest('div.box');
+                boxImg = boxSelect.children[0].getAttribute('src');
+                let el = ` <div class="content-container">
+                <div class="img-container">
+                    <div class="img-box"><img src="${boxImg}" class="cart-img" alt=""></div>
+                    <div class="price-box">
+                        <h3>cart item 01</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                </div>
+                <div class="xmark"><i class="fa-solid fa-xmark" ></i></div>
+            </div>`;
+
+
+                document.querySelector('.cart-container').innerHTML += el;
+                badgeCounter()
+                // document.querySelector('.img-box').innerHTML = boxImg;
+            }
+
+        }
+
+        function badgeCounter() {
+            let contentContainerSelector = document.querySelectorAll('.content-container');
+            let badgeIcon = `${contentContainerSelector.length}`;
+            if (contentContainerSelector.length == 0) {
+                document.getElementById('badge').remove();
+                // document.querySelector('.check-out-container').remove();
+            }
+            else {
+                let addBadge = `<span class="badge" id="badge"></span>`;
+                document.querySelector('.fa-cart-shopping').innerHTML = addBadge;
+                document.getElementById('badge').innerHTML = `+${badgeIcon}`;
+                let addCheckout = `<a href="" class="check-out">checkout now</a>`;
+            }
+            console.log('type of = ', typeof badgeIcon)
+            console.log('badge = ', contentContainerSelector)
+        }
+        let vv = document.querySelector('.cart-container .content-container:first-child')
+        console.log('.cart-container .content-container:first-child =', vv);
+
+
+    </script>
+</body>
+
+</html>

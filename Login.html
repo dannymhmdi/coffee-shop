@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-practice.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+    <div class="coffee-container">
+        <div class="coffee-header">
+            <div class="coffee-header__buttons coffee-header__button-one"></div>
+            <div class="coffee-header__buttons coffee-header__button-two"></div>
+            <div class="coffee-header__display"></div>
+            <div class="coffee-header__details"></div>
+        </div>
+        <div class="coffee-medium">
+            <div class="coffe-medium__exit"></div>
+            <div class="coffee-medium__arm"></div>
+            <div class="coffee-medium__liquid"></div>
+            <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+            <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+            <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+            <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+            <div class="coffee-medium__cup"></div>
+        </div>
+        <div class="coffee-footer"></div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center height-100vh">
+        <form action="" method="post" class="login-form rounded-3 px-2 pt-3 col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4 scale-form-hide">
+            <img src="images/logo.png" alt="">
+            <h3 class="mt-3 mb-3 text-capitalize">Login</h3>
+            <div class="mail-input mb-3 w-100 text-start px-2">
+                <label for="num-mail" class="mb-2">Enter your mail or number</label><br>
+                <input type="text" name="" id="num-mail" class="w-100 py-2s rounded-1 text-white">
+            </div>
+            <div class="mail-input mb-4 w-100 text-start px-2">
+                <label for="password" class="mb-2">Enter your password</label><br>
+                <input type="password" name="" id="password" class="w-100 py-2s rounded-1 text-white">
+            </div>
+            <button type="submit" class="form-btn px-0 w-50 fs-5">Login</button>
+        </form>
+    </div>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        function removeAnimation() {
+            document.querySelector('.coffee-container').remove();
+        }
+        setTimeout(removeAnimation, 8000)
+
+        let formShow = function(){
+            document.querySelector('.scale-form-hide').classList.add('scale-form-show')
+        }
+        setTimeout(formShow,8300)
+        // formShow()
+    </script>
+</body>
+
+</html>
